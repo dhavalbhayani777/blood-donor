@@ -1,0 +1,44 @@
+.position-relative {
+    position: relative;
+}
+
+.add_more_remarks {
+    position: absolute;
+    top: 25px;
+    right: 16px;
+    height: 34px;
+}
+
+.remove_remarks {
+    position: absolute;
+    top: 25px;
+    right: 16px;
+    height: 34px;
+}
+
+.add_more_remarks {
+    position: absolute;
+    top: 25px;
+    right: 16px;
+    height: 34px;
+    width: 27px;
+    background-color: #efefef;
+    border: 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.add_more_remarks i {
+    position: absolute;
+    top: 8px;
+    left: 7px;
+}
+
+.grid-50 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-50:before {
+    content: none;
+}
